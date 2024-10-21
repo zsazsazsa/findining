@@ -4,7 +4,8 @@
     "fields": {
       "name": "Hattie B's Hot Chicken",
       "location": "112 19th Ave S, Nashville, TN",
-      "category_id": 1
+      "category_id": 1,
+      "user_id": 1
     }
   },
   {
@@ -13,7 +14,8 @@
     "fields": {
       "name": "Martin's Bar-B-Que Joint",
       "location": "410 4th Ave S, Nashville, TN",
-      "category_id": 2
+      "category_id": 2,
+      "user_id": 2
     }
   },
   {
@@ -22,7 +24,8 @@
     "fields": {
       "name": "The Southern Steak & Oyster",
       "location": "150 3rd Ave S, Nashville, TN",
-      "category_id": 3
+      "category_id": 3,
+      "user_id": 3
     }
   },
   {
@@ -31,7 +34,8 @@
     "fields": {
       "name": "Rolf and Daughters",
       "location": "700 Taylor St, Nashville, TN",
-      "category_id": 4
+      "category_id": 4,
+      "user_id": 4
     }
   },
   {
@@ -40,7 +44,8 @@
     "fields": {
       "name": "Bakersfield",
       "location": "201 3rd Ave S, Nashville, TN",
-      "category_id": 5
+      "category_id": 5,
+      "user_id":  5
     }
   },
   {
@@ -49,7 +54,8 @@
     "fields": {
       "name": "Peg Leg Porker",
       "location": "903 Gleaves St, Nashville, TN",
-      "category_id": 2
+      "category_id": 2,
+      "user_id": 6
     }
   },
   {
@@ -58,7 +64,8 @@
     "fields": {
       "name": "Urban Grub",
       "location": "2506 12th Ave S, Nashville, TN",
-      "category_id": 1
+      "category_id": 1,
+      "user_id": 1
     }
   },
   {
@@ -67,7 +74,8 @@
     "fields": {
       "name": "The Optimist",
       "location": "1400 Adams St, Nashville, TN",
-      "category_id": 3
+      "category_id": 3,
+      "user_id": 2
     }
   },
   {
@@ -76,7 +84,8 @@
     "fields": {
       "name": "City House",
       "location": "1222 4th Ave N, Nashville, TN",
-      "category_id": 4
+      "category_id": 4,
+      "user_id": 3
     }
   },
   {
@@ -85,7 +94,8 @@
     "fields": {
       "name": "Mas Tacos Por Favor",
       "location": "732 Mcferrin Ave, Nashville, TN",
-      "category_id": 5
+      "category_id": 5,
+      "user_id": 4
     }
   }
 ]
