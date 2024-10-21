@@ -1,0 +1,42 @@
+[
+    {
+      "model": "diningapi.category",
+      "pk": 1,
+      "fields": {
+        "type": "Southern"
+      }
+    },
+    {
+      "model": "diningapi.category",
+      "pk": 2,
+      "fields": {
+        "type": "BBQ"
+      }
+    },
+    {
+      "model": "diningapi.category",
+      "pk": 3,
+      "fields": {
+        "type": "Seafood"
+      }
+    },
+    {
+      "model": "diningapi.category",
+      "pk": 4,
+      "fields": {
+        "type": "Italian"
+      }
+    },
+    {
+      "model": "diningapi.category",
+      "pk": 5,
+      "fields": {
+        "type": "Mexican"
+      }
+    }
+
+]
+    
+    
+  
+  

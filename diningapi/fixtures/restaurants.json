@@ -1,0 +1,91 @@
+[{
+    "model": "diningapi.restaurant",
+    "pk": 1,
+    "fields": {
+      "name": "Hattie B's Hot Chicken",
+      "location": "112 19th Ave S, Nashville, TN",
+      "category_id": 1
+    }
+  },
+  {
+    "model": "diningapi.restaurant",
+    "pk": 2,
+    "fields": {
+      "name": "Martin's Bar-B-Que Joint",
+      "location": "410 4th Ave S, Nashville, TN",
+      "category_id": 2
+    }
+  },
+  {
+    "model": "diningapi.restaurant",
+    "pk": 3,
+    "fields": {
+      "name": "The Southern Steak & Oyster",
+      "location": "150 3rd Ave S, Nashville, TN",
+      "category_id": 3
+    }
+  },
+  {
+    "model": "diningapi.restaurant",
+    "pk": 4,
+    "fields": {
+      "name": "Rolf and Daughters",
+      "location": "700 Taylor St, Nashville, TN",
+      "category_id": 4
+    }
+  },
+  {
+    "model": "diningapi.restaurant",
+    "pk": 5,
+    "fields": {
+      "name": "Bakersfield",
+      "location": "201 3rd Ave S, Nashville, TN",
+      "category_id": 5
+    }
+  },
+  {
+    "model": "diningapi.restaurant",
+    "pk": 6,
+    "fields": {
+      "name": "Peg Leg Porker",
+      "location": "903 Gleaves St, Nashville, TN",
+      "category_id": 2
+    }
+  },
+  {
+    "model": "diningapi.restaurant",
+    "pk": 7,
+    "fields": {
+      "name": "Urban Grub",
+      "location": "2506 12th Ave S, Nashville, TN",
+      "category_id": 1
+    }
+  },
+  {
+    "model": "diningapi.restaurant",
+    "pk": 8,
+    "fields": {
+      "name": "The Optimist",
+      "location": "1400 Adams St, Nashville, TN",
+      "category_id": 3
+    }
+  },
+  {
+    "model": "diningapi.restaurant",
+    "pk": 9,
+    "fields": {
+      "name": "City House",
+      "location": "1222 4th Ave N, Nashville, TN",
+      "category_id": 4
+    }
+  },
+  {
+    "model": "diningapi.restaurant",
+    "pk": 10,
+    "fields": {
+      "name": "Mas Tacos Por Favor",
+      "location": "732 Mcferrin Ave, Nashville, TN",
+      "category_id": 5
+    }
+  }
+]
