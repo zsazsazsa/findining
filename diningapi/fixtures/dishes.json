@@ -4,6 +4,7 @@
         "pk": 1,
         "fields": {
           "name": "Hot Chicken",
+
           "user": 1,
           "restaurant": 1
         }
@@ -15,6 +16,7 @@
           "name": "Pimento Mac & Cheese",
           "user": 1,
           "restaurant": 1
+
         }
       },
       {
@@ -24,6 +26,7 @@
           "name": "Collard Greens",
           "user": 1,
           "restaurant": 1
+
         }
       },
       {
@@ -409,7 +412,7 @@
         "pk": 46,
         "fields": {
           "name": "Tacos de Carnitas",
-            "user": 4,
+           "user": 4,
           "restaurant": 10
         }
       },
