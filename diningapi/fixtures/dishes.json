@@ -4,7 +4,8 @@
         "pk": 1,
         "fields": {
           "name": "Hot Chicken",
-          "restaurant_id": 1
+          "user": 1,
+          "restaurant": 1
         }
       },
       {
@@ -12,7 +13,8 @@
         "pk": 2,
         "fields": {
           "name": "Pimento Mac & Cheese",
-          "restaurant_id": 1
+          "user": 1,
+          "restaurant": 1
         }
       },
       {
@@ -20,7 +22,8 @@
         "pk": 3,
         "fields": {
           "name": "Collard Greens",
-          "restaurant_id": 1
+          "user": 1,
+          "restaurant": 1
         }
       },
       {
@@ -28,7 +31,8 @@
         "pk": 4,
         "fields": {
           "name": "Potato Salad",
-          "restaurant_id": 1
+          "user": 1,
+          "restaurant": 1
         }
       },
       {
@@ -36,7 +40,8 @@
         "pk": 5,
         "fields": {
           "name": "Banana Pudding",
-          "restaurant_id": 1
+          "user": 1,
+          "restaurant": 1
         }
       },
       {
@@ -44,7 +49,8 @@
         "pk": 6,
         "fields": {
           "name": "Pulled Pork Sandwich",
-          "restaurant_id": 2
+          "user": 2,
+          "restaurant": 2
         }
       },
       {
@@ -52,7 +58,8 @@
         "pk": 7,
         "fields": {
           "name": "Baby Back Ribs",
-          "restaurant_id": 2
+          "user": 2,
+          "restaurant": 2
         }
       },
       {
@@ -60,7 +67,8 @@
         "pk": 8,
         "fields": {
           "name": "Smoked Wings",
-          "restaurant_id": 2
+          "user": 2,
+          "restaurant": 2
         }
       },
       {
@@ -68,7 +76,8 @@
         "pk": 9,
         "fields": {
           "name": "Brisket Sandwich",
-          "restaurant_id": 2
+          "user": 2,
+          "restaurant": 2
         }
       },
       {
@@ -76,7 +85,8 @@
         "pk": 10,
         "fields": {
           "name": "Cornbread",
-          "restaurant_id": 2
+          "user": 2,
+          "restaurant": 2
         }
       },
       {
@@ -84,7 +94,8 @@
         "pk": 11,
         "fields": {
           "name": "Grilled Oysters",
-          "restaurant_id": 3
+          "user": 3,
+          "restaurant": 3
         }
       },
       {
@@ -92,7 +103,8 @@
         "pk": 12,
         "fields": {
           "name": "Lobster Bisque",
-          "restaurant_id": 3
+          "user": 3,
+          "restaurant": 3
         }
       },
       {
@@ -100,7 +112,8 @@
         "pk": 13,
         "fields": {
           "name": "Crab Cakes",
-          "restaurant_id": 3
+          "user": 3,
+          "restaurant": 3
         }
       },
       {
@@ -108,7 +121,8 @@
         "pk": 14,
         "fields": {
           "name": "Shrimp and Grits",
-          "restaurant_id": 3
+          "user": 3,
+          "restaurant": 3
         }
       },
       {
@@ -116,7 +130,8 @@
         "pk": 15,
         "fields": {
           "name": "Seared Scallops",
-          "restaurant_id": 3
+          "user": 3,
+          "restaurant": 3
         }
       },
       {
@@ -124,7 +139,8 @@
         "pk": 16,
         "fields": {
           "name": "Cavatelli Pasta",
-          "restaurant_id": 4
+          "user": 4,
+          "restaurant": 4
         }
       },
       {
@@ -132,7 +148,8 @@
         "pk": 17,
         "fields": {
           "name": "Ricotta Dumplings",
-          "restaurant_id": 4
+          "user": 4,
+          "restaurant": 4
         }
       },
       {
@@ -140,7 +157,8 @@
         "pk": 18,
         "fields": {
           "name": "Lamb Ragout",
-          "restaurant_id": 4
+          "user": 4,
+          "restaurant": 4
         }
       },
       {
@@ -148,7 +166,8 @@
         "pk": 19,
         "fields": {
           "name": "Tagliatelle",
-          "restaurant_id": 4
+          "user": 4,
+          "restaurant": 4
         }
       },
       {
@@ -156,7 +175,8 @@
         "pk": 20,
         "fields": {
           "name": "Panna Cotta",
-          "restaurant_id": 4
+          "user": 4,
+          "restaurant": 4
         }
       },
       {
@@ -164,7 +184,8 @@
         "pk": 21,
         "fields": {
           "name": "Tacos Al Pastor",
-          "restaurant_id": 5
+          "user": 5,
+          "restaurant": 5
         }
       },
       {
@@ -172,7 +193,8 @@
         "pk": 22,
         "fields": {
           "name": "Queso Fundido",
-          "restaurant_id": 5
+          "user": 5,
+          "restaurant": 5
         }
       },
       {
@@ -180,7 +202,8 @@
         "pk": 23,
         "fields": {
           "name": "Carnitas Tacos",
-          "restaurant_id": 5
+          "user": 5,
+          "restaurant": 5
         }
       },
       {
@@ -188,7 +211,8 @@
         "pk": 24,
         "fields": {
           "name": "Guacamole",
-          "restaurant_id": 5
+          "user": 5,
+          "restaurant": 5
         }
       },
       {
@@ -196,7 +220,8 @@
         "pk": 25,
         "fields": {
           "name": "Tres Leches Cake",
-          "restaurant_id": 5
+          "user": 5,
+          "restaurant": 5
         }
       },
       {
@@ -204,7 +229,8 @@
         "pk": 26,
         "fields": {
           "name": "BBQ Ribs",
-          "restaurant_id": 6
+          "user": 6,
+          "restaurant": 6
         }
       },
       {
@@ -212,7 +238,8 @@
         "pk": 27,
         "fields": {
           "name": "BBQ Nachos",
-          "restaurant_id": 6
+          "user": 6,
+          "restaurant": 6
         }
       },
       {
@@ -220,7 +247,8 @@
         "pk": 28,
         "fields": {
           "name": "Smoked Sausage",
-          "restaurant_id": 6
+          "user": 6,
+          "restaurant": 6
         }
       },
       {
@@ -228,7 +256,8 @@
         "pk": 29,
         "fields": {
           "name": "BBQ Baked Beans",
-          "restaurant_id": 6
+          "user": 6,
+          "restaurant": 6
         }
       },
       {
@@ -236,7 +265,8 @@
         "pk": 30,
         "fields": {
           "name": "Fried Pickles",
-          "restaurant_id": 6
+          "user": 6,
+          "restaurant": 6
         }
       },
       {
@@ -244,7 +274,8 @@
         "pk": 31,
         "fields": {
           "name": "Shrimp Cocktail",
-          "restaurant_id": 7
+          "user": 1,
+          "restaurant": 7
         }
       },
       {
@@ -252,7 +283,8 @@
         "pk": 32,
         "fields": {
           "name": "Smoked Salmon",
-          "restaurant_id": 7
+          "user": 1,
+          "restaurant": 7
         }
       },
       {
@@ -260,7 +292,8 @@
         "pk": 33,
         "fields": {
           "name": "Crab Claws",
-          "restaurant_id": 7
+          "user": 1,
+          "restaurant": 7
         }
       },
       {
@@ -268,7 +301,8 @@
         "pk": 34,
         "fields": {
           "name": "Fried Oysters",
-          "restaurant_id": 7
+          "user": 1,
+          "restaurant": 7
         }
       },
       {
@@ -276,7 +310,8 @@
         "pk": 35,
         "fields": {
           "name": "Lamb Chops",
-          "restaurant_id": 7
+          "user": 1,
+          "restaurant": 7
         }
       },
       {
@@ -284,7 +319,8 @@
         "pk": 36,
         "fields": {
           "name": "Swordfish",
-          "restaurant_id": 8
+          "user": 2,
+          "restaurant": 8
         }
       },
       {
@@ -292,7 +328,8 @@
         "pk": 37,
         "fields": {
           "name": "Fried Calamari",
-          "restaurant_id": 8
+          "user": 2,
+          "restaurant": 8
         }
       },
       {
@@ -300,7 +337,8 @@
         "pk": 38,
         "fields": {
           "name": "Lobster Roll",
-          "restaurant_id": 8
+          "user": 2,
+          "restaurant": 8
         }
       },
       {
@@ -308,7 +346,8 @@
         "pk": 39,
         "fields": {
           "name": "Grilled Octopus",
-          "restaurant_id": 8
+          "user": 2,
+          "restaurant": 8
         }
       },
       {
@@ -316,7 +355,8 @@
         "pk": 40,
         "fields": {
           "name": "Fish Tacos",
-          "restaurant_id": 8
+          "user": 2,
+          "restaurant": 8
         }
       },
       {
@@ -324,7 +364,8 @@
         "pk": 41,
         "fields": {
           "name": "Margherita Pizza",
-          "restaurant_id": 9
+          "user": 3,
+          "restaurant": 9
         }
       },
       {
@@ -332,7 +373,8 @@
         "pk": 42,
         "fields": {
           "name": "Pork Belly",
-          "restaurant_id": 9
+          "user": 3,
+          "restaurant": 9
         }
       },
       {
@@ -340,7 +382,8 @@
         "pk": 43,
         "fields": {
           "name": "Wood-fired Chicken",
-          "restaurant_id": 9
+          "user": 3,
+          "restaurant": 9
         }
       },
       {
@@ -348,7 +391,8 @@
         "pk": 44,
         "fields": {
           "name": "Spaghetti Carbonara",
-          "restaurant_id": 9
+          "user": 3,
+          "restaurant": 9
         }
       },
       {
@@ -356,7 +400,8 @@
         "pk": 45,
         "fields": {
           "name": "Panna Cotta",
-          "restaurant_id": 9
+          "user": 3,
+          "restaurant": 9
         }
       },
       {
@@ -364,7 +409,8 @@
         "pk": 46,
         "fields": {
           "name": "Tacos de Carnitas",
-          "restaurant_id": 10
+            "user": 4,
+          "restaurant": 10
         }
       },
       {
@@ -372,7 +418,8 @@
         "pk": 47,
         "fields": {
           "name": "Elote",
-          "restaurant_id": 10
+          "user": 4,
+          "restaurant": 10
         }
       },
       {
@@ -380,7 +427,8 @@
         "pk": 48,
         "fields": {
           "name": "Chips and Salsa",
-          "restaurant_id": 10
+          "user": 4,
+          "restaurant": 10
         }
       },
       {
@@ -388,7 +436,8 @@
         "pk": 49,
         "fields": {
           "name": "Churros",
-          "restaurant_id": 10
+          "user": 4,
+          "restaurant": 10
         }
       },
       {
@@ -396,7 +445,8 @@
         "pk": 50,
         "fields": {
           "name": "Ceviche",
-          "restaurant_id": 10
+          "user": 4,
+          "restaurant": 10
         }
       }
 ]
