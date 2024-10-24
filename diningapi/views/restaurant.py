@@ -38,3 +38,16 @@ class RestaurantView(ViewSet):
             return Response(serializer.data, status=status.HTTP_200_OK)
         except Exception as ex:
             return HttpResponseServerError(ex)
+        
+    def create(self, request):
+        restaurant = Restaurant()
+        restaurant.name = request.data['name']
+        restaurant.location = request.data['location']
+        category = Category.objects.get(pk=request.data['category'])
+        restaurant.category = category
+        restaurant.user = request.user
+        restaurant.save()
+
+        serialized = RestaurantSerializer(restaurant, many=False)
+
+        return Response(serialized.data, status=status.HTTP_201_CREATED)
