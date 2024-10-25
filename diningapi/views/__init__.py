@@ -3,3 +3,4 @@ from .restaurant import RestaurantView
 from .category import CategoryView
 from .dish import DishView
 from .wishlist import WishlistView
+from .restaurantRating import RestaurantRatingView
