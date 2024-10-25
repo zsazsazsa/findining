@@ -1,7 +1,7 @@
 from django.contrib import admin
 from django.urls import include, path
 from rest_framework import routers
-from diningapi.views import register_user, login_user, RestaurantView, CategoryView, DishView
+from diningapi.views import register_user, login_user, RestaurantView, CategoryView, DishView, WishlistView
 from django.conf.urls.static import static
 from django.conf import settings
 
@@ -9,6 +9,7 @@ router = routers.DefaultRouter(trailing_slash=False)
 router.register(r'restaurants', RestaurantView, 'restaurant')
 router.register(r'categories', CategoryView, 'category')
 router.register(r'dishes', DishView, 'dishes')
+router.register(r'wishlist', WishlistView, 'wishlist')
 
 urlpatterns = [
     path('', include(router.urls)),
