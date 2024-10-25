@@ -3,6 +3,7 @@ from django.urls import include, path
 from rest_framework import routers
 from django.conf.urls.static import static
 from django.conf import settings
+from diningapi.views import register_user, login_user, RestaurantView, CategoryView, DishView, WishlistView, RestaurantRatingView
 
 router = routers.DefaultRouter(trailing_slash=False)
 router.register(r'restaurants', RestaurantView, 'restaurant')
