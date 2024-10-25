@@ -24,7 +24,7 @@ class RestaurantSerializer(serializers.ModelSerializer):
 
     class Meta:
         model = Restaurant
-        fields = ('id', 'name', 'location', 'category', 'user')
+        fields = ['id', 'name', 'location', 'category', 'user']
 
 
 class RestaurantView(ViewSet): 
