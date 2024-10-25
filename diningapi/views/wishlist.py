@@ -1,5 +1,5 @@
 from rest_framework.viewsets import ViewSet
-from diningapi.models import Wishlist, Restaurant
+from diningapi.models import Wishlist, Dish
 from rest_framework import  serializers, status
 from django.contrib.auth.models import User
 from rest_framework.response import Response
@@ -10,19 +10,19 @@ class WishlistUserSerializer(serializers.ModelSerializer):
         model = User
         fields = ['id', 'username', 'email', 'first_name', 'last_name']
 
-class WishlistRestaurantSerializer(serializers.ModelSerializer):
+class WishlistDishSerializer(serializers.ModelSerializer):
     class Meta:
-        model = Restaurant
-        fields = ['name', 'location', 'category', 'user']
+        model = Dish
+        fields = ['name', 'restaurant', 'user']
 
 class WishlistSerializer(serializers.ModelSerializer):
 
-    restaurant = WishlistRestaurantSerializer(many=False)
+    dish = WishlistDishSerializer(many=False)
     user = WishlistUserSerializer(many=False)
 
     class Meta: 
         model = Wishlist
-        fields = ['restaurant', 'user']
+        fields = ['dish', 'user']
 
 
 class WishlistView(ViewSet):
