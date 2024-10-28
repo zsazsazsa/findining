@@ -14,7 +14,7 @@ class WishlistUserSerializer(serializers.ModelSerializer):
 class WishlistDishSerializer(serializers.ModelSerializer):
     class Meta:
         model = Dish
-        fields = ['name', 'restaurant', 'user']
+        fields = ['id', 'name', 'restaurant', 'user']
 
 class WishlistSerializer(serializers.ModelSerializer):
 
@@ -23,7 +23,7 @@ class WishlistSerializer(serializers.ModelSerializer):
 
     class Meta: 
         model = Wishlist
-        fields = ['dish', 'user']
+        fields = ['id', 'dish', 'user']
 
 
 class WishlistView(ViewSet):
