@@ -48,3 +48,17 @@ class WishlistView(ViewSet):
             return Response(serializer.data, status=status.HTTP_200_OK)
         except Exception as ex:
             return HttpResponseServerError(ex)
+        
+    def destroy(self, request, pk=None):
+       
+        try:
+            wish = Wishlist.objects.get(pk=pk)
+            wish.delete()
+
+            return Response({}, status=status.HTTP_204_NO_CONTENT)
+
+        except Dish.DoesNotExist as ex:
+            return Response({'message': ex.args[0]}, status=status.HTTP_404_NOT_FOUND)
+
+        except Exception as ex:
+            return Response({'message': ex.args[0]}, status=status.HTTP_500_INTERNAL_SERVER_ERROR)
