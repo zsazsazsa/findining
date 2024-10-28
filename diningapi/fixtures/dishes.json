@@ -1,0 +1,455 @@
+[
+    {
+        "model": "diningapi.dish",
+        "pk": 1,
+        "fields": {
+          "name": "Hot Chicken",
+
+          "user": 1,
+          "restaurant": 1
+        }
+      },
+      {
+        "model": "diningapi.dish",
+        "pk": 2,
+        "fields": {
+          "name": "Pimento Mac & Cheese",
+          "user": 1,
+          "restaurant": 1
+
+        }
+      },
+      {
+        "model": "diningapi.dish",
+        "pk": 3,
+        "fields": {
+          "name": "Collard Greens",
+          "user": 1,
+          "restaurant": 1
+
+        }
+      },
+      {
+        "model": "diningapi.dish",
+        "pk": 4,
+        "fields": {
+          "name": "Potato Salad",
+          "user": 1,
+          "restaurant": 1
+        }
+      },
+      {
+        "model": "diningapi.dish",
+        "pk": 5,
+        "fields": {
+          "name": "Banana Pudding",
+          "user": 1,
+          "restaurant": 1
+        }
+      },
+      {
+        "model": "diningapi.dish",
+        "pk": 6,
+        "fields": {
+          "name": "Pulled Pork Sandwich",
+          "user": 2,
+          "restaurant": 2
+        }
+      },
+      {
+        "model": "diningapi.dish",
+        "pk": 7,
+        "fields": {
+          "name": "Baby Back Ribs",
+          "user": 2,
+          "restaurant": 2
+        }
+      },
+      {
+        "model": "diningapi.dish",
+        "pk": 8,
+        "fields": {
+          "name": "Smoked Wings",
+          "user": 2,
+          "restaurant": 2
+        }
+      },
+      {
+        "model": "diningapi.dish",
+        "pk": 9,
+        "fields": {
+          "name": "Brisket Sandwich",
+          "user": 2,
+          "restaurant": 2
+        }
+      },
+      {
+        "model": "diningapi.dish",
+        "pk": 10,
+        "fields": {
+          "name": "Cornbread",
+          "user": 2,
+          "restaurant": 2
+        }
+      },
+      {
+        "model": "diningapi.dish",
+        "pk": 11,
+        "fields": {
+          "name": "Grilled Oysters",
+          "user": 3,
+          "restaurant": 3
+        }
+      },
+      {
+        "model": "diningapi.dish",
+        "pk": 12,
+        "fields": {
+          "name": "Lobster Bisque",
+          "user": 3,
+          "restaurant": 3
+        }
+      },
+      {
+        "model": "diningapi.dish",
+        "pk": 13,
+        "fields": {
+          "name": "Crab Cakes",
+          "user": 3,
+          "restaurant": 3
+        }
+      },
+      {
+        "model": "diningapi.dish",
+        "pk": 14,
+        "fields": {
+          "name": "Shrimp and Grits",
+          "user": 3,
+          "restaurant": 3
+        }
+      },
+      {
+        "model": "diningapi.dish",
+        "pk": 15,
+        "fields": {
+          "name": "Seared Scallops",
+          "user": 3,
+          "restaurant": 3
+        }
+      },
+      {
+        "model": "diningapi.dish",
+        "pk": 16,
+        "fields": {
+          "name": "Cavatelli Pasta",
+          "user": 4,
+          "restaurant": 4
+        }
+      },
+      {
+        "model": "diningapi.dish",
+        "pk": 17,
+        "fields": {
+          "name": "Ricotta Dumplings",
+          "user": 4,
+          "restaurant": 4
+        }
+      },
+      {
+        "model": "diningapi.dish",
+        "pk": 18,
+        "fields": {
+          "name": "Lamb Ragout",
+          "user": 4,
+          "restaurant": 4
+        }
+      },
+      {
+        "model": "diningapi.dish",
+        "pk": 19,
+        "fields": {
+          "name": "Tagliatelle",
+          "user": 4,
+          "restaurant": 4
+        }
+      },
+      {
+        "model": "diningapi.dish",
+        "pk": 20,
+        "fields": {
+          "name": "Panna Cotta",
+          "user": 4,
+          "restaurant": 4
+        }
+      },
+      {
+        "model": "diningapi.dish",
+        "pk": 21,
+        "fields": {
+          "name": "Tacos Al Pastor",
+          "user": 5,
+          "restaurant": 5
+        }
+      },
+      {
+        "model": "diningapi.dish",
+        "pk": 22,
+        "fields": {
+          "name": "Queso Fundido",
+          "user": 5,
+          "restaurant": 5
+        }
+      },
+      {
+        "model": "diningapi.dish",
+        "pk": 23,
+        "fields": {
+          "name": "Carnitas Tacos",
+          "user": 5,
+          "restaurant": 5
+        }
+      },
+      {
+        "model": "diningapi.dish",
+        "pk": 24,
+        "fields": {
+          "name": "Guacamole",
+          "user": 5,
+          "restaurant": 5
+        }
+      },
+      {
+        "model": "diningapi.dish",
+        "pk": 25,
+        "fields": {
+          "name": "Tres Leches Cake",
+          "user": 5,
+          "restaurant": 5
+        }
+      },
+      {
+        "model": "diningapi.dish",
+        "pk": 26,
+        "fields": {
+          "name": "BBQ Ribs",
+          "user": 6,
+          "restaurant": 6
+        }
+      },
+      {
+        "model": "diningapi.dish",
+        "pk": 27,
+        "fields": {
+          "name": "BBQ Nachos",
+          "user": 6,
+          "restaurant": 6
+        }
+      },
+      {
+        "model": "diningapi.dish",
+        "pk": 28,
+        "fields": {
+          "name": "Smoked Sausage",
+          "user": 6,
+          "restaurant": 6
+        }
+      },
+      {
+        "model": "diningapi.dish",
+        "pk": 29,
+        "fields": {
+          "name": "BBQ Baked Beans",
+          "user": 6,
+          "restaurant": 6
+        }
+      },
+      {
+        "model": "diningapi.dish",
+        "pk": 30,
+        "fields": {
+          "name": "Fried Pickles",
+          "user": 6,
+          "restaurant": 6
+        }
+      },
+      {
+        "model": "diningapi.dish",
+        "pk": 31,
+        "fields": {
+          "name": "Shrimp Cocktail",
+          "user": 1,
+          "restaurant": 7
+        }
+      },
+      {
+        "model": "diningapi.dish",
+        "pk": 32,
+        "fields": {
+          "name": "Smoked Salmon",
+          "user": 1,
+          "restaurant": 7
+        }
+      },
+      {
+        "model": "diningapi.dish",
+        "pk": 33,
+        "fields": {
+          "name": "Crab Claws",
+          "user": 1,
+          "restaurant": 7
+        }
+      },
+      {
+        "model": "diningapi.dish",
+        "pk": 34,
+        "fields": {
+          "name": "Fried Oysters",
+          "user": 1,
+          "restaurant": 7
+        }
+      },
+      {
+        "model": "diningapi.dish",
+        "pk": 35,
+        "fields": {
+          "name": "Lamb Chops",
+          "user": 1,
+          "restaurant": 7
+        }
+      },
+      {
+        "model": "diningapi.dish",
+        "pk": 36,
+        "fields": {
+          "name": "Swordfish",
+          "user": 2,
+          "restaurant": 8
+        }
+      },
+      {
+        "model": "diningapi.dish",
+        "pk": 37,
+        "fields": {
+          "name": "Fried Calamari",
+          "user": 2,
+          "restaurant": 8
+        }
+      },
+      {
+        "model": "diningapi.dish",
+        "pk": 38,
+        "fields": {
+          "name": "Lobster Roll",
+          "user": 2,
+          "restaurant": 8
+        }
+      },
+      {
+        "model": "diningapi.dish",
+        "pk": 39,
+        "fields": {
+          "name": "Grilled Octopus",
+          "user": 2,
+          "restaurant": 8
+        }
+      },
+      {
+        "model": "diningapi.dish",
+        "pk": 40,
+        "fields": {
+          "name": "Fish Tacos",
+          "user": 2,
+          "restaurant": 8
+        }
+      },
+      {
+        "model": "diningapi.dish",
+        "pk": 41,
+        "fields": {
+          "name": "Margherita Pizza",
+          "user": 3,
+          "restaurant": 9
+        }
+      },
+      {
+        "model": "diningapi.dish",
+        "pk": 42,
+        "fields": {
+          "name": "Pork Belly",
+          "user": 3,
+          "restaurant": 9
+        }
+      },
+      {
+        "model": "diningapi.dish",
+        "pk": 43,
+        "fields": {
+          "name": "Wood-fired Chicken",
+          "user": 3,
+          "restaurant": 9
+        }
+      },
+      {
+        "model": "diningapi.dish",
+        "pk": 44,
+        "fields": {
+          "name": "Spaghetti Carbonara",
+          "user": 3,
+          "restaurant": 9
+        }
+      },
+      {
+        "model": "diningapi.dish",
+        "pk": 45,
+        "fields": {
+          "name": "Panna Cotta",
+          "user": 3,
+          "restaurant": 9
+        }
+      },
+      {
+        "model": "diningapi.dish",
+        "pk": 46,
+        "fields": {
+          "name": "Tacos de Carnitas",
+           "user": 4,
+          "restaurant": 10
+        }
+      },
+      {
+        "model": "diningapi.dish",
+        "pk": 47,
+        "fields": {
+          "name": "Elote",
+          "user": 4,
+          "restaurant": 10
+        }
+      },
+      {
+        "model": "diningapi.dish",
+        "pk": 48,
+        "fields": {
+          "name": "Chips and Salsa",
+          "user": 4,
+          "restaurant": 10
+        }
+      },
+      {
+        "model": "diningapi.dish",
+        "pk": 49,
+        "fields": {
+          "name": "Churros",
+          "user": 4,
+          "restaurant": 10
+        }
+      },
+      {
+        "model": "diningapi.dish",
+        "pk": 50,
+        "fields": {
+          "name": "Ceviche",
+          "user": 4,
+          "restaurant": 10
+        }
+      }
+]
