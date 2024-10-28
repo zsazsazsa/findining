@@ -58,3 +58,17 @@ class DishView(ViewSet):
         serialized = DishSerializer(dish, many=False)
 
         return Response(serialized.data, status=status.HTTP_201_CREATED)
+    
+    def destroy(self, request, pk=None):
+       
+        try:
+            dish = Dish.objects.get(pk=pk)
+            dish.delete()
+
+            return Response({}, status=status.HTTP_204_NO_CONTENT)
+
+        except Dish.DoesNotExist as ex:
+            return Response({'message': ex.args[0]}, status=status.HTTP_404_NOT_FOUND)
+
+        except Exception as ex:
+            return Response({'message': ex.args[0]}, status=status.HTTP_500_INTERNAL_SERVER_ERROR)
