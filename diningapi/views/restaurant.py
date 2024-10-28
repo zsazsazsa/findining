@@ -51,3 +51,12 @@ class RestaurantView(ViewSet):
         serialized = RestaurantSerializer(restaurant, many=False)
 
         return Response(serialized.data, status=status.HTTP_201_CREATED)
+    
+    def retrieve(self, request, pk=None):
+        try:
+            restaurant = Restaurant.objects.get(pk=pk)
+            serializer = RestaurantSerializer(restaurant, context={'request': request})
+            return Response(serializer.data)
+
+        except Restaurant.DoesNotExist:
+            return Response(status=status.HTTP_404_NOT_FOUND)
