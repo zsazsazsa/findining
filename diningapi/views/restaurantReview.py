@@ -2,7 +2,7 @@ from rest_framework.viewsets import ViewSet
 from diningapi.models import RestaurantReview, Restaurant
 from rest_framework import  serializers, status
 from rest_framework.response import Response
-
+from django.http import HttpResponseServerError
 from django.contrib.auth.models import User
 
 
@@ -38,3 +38,14 @@ class RestaurantReviewView(ViewSet):
         serialized = RestaurantReviewSerializer(review, many=False)
 
         return Response(serialized.data, status=status.HTTP_201_CREATED)
+    
+    def list(self, request):
+
+        try:
+            # Start with all rows
+            reviews = RestaurantReview.objects.all()
+
+            serializer = RestaurantReviewSerializer(reviews, many=True)
+            return Response(serializer.data, status=status.HTTP_200_OK)
+        except Exception as ex:
+            return HttpResponseServerError(ex)
