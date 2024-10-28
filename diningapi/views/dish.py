@@ -72,3 +72,19 @@ class DishView(ViewSet):
 
         except Exception as ex:
             return Response({'message': ex.args[0]}, status=status.HTTP_500_INTERNAL_SERVER_ERROR)
+        
+    def retrieve(self, request, pk=None):
+        try:
+            dish = Dish.objects.get(pk=pk)
+            serializer = DishSerializer(dish, context={'request': request})
+            return Response(serializer.data)
+
+        except Restaurant.DoesNotExist:
+            return Response(status=status.HTTP_404_NOT_FOUND)
+        
+    def update(self, request, pk=None):
+        dish = Dish.objects.get(pk=pk)
+        dish.name = request.data["name"]
+        dish.save()
+
+        return Response({}, status=status.HTTP_204_NO_CONTENT)
