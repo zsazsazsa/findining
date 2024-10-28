@@ -46,3 +46,15 @@ class DishView(ViewSet):
             return Response(serializer.data, status=status.HTTP_200_OK)
         except Exception as ex:
             return HttpResponseServerError(ex)
+        
+    def create(self, request):
+        dish = Dish()
+        dish.name = request.data['name']
+        restaurant = Restaurant.objects.get(pk=request.data['restaurant'])
+        dish.restaurant = restaurant
+        dish.user = request.user
+        dish.save()
+
+        serialized = DishSerializer(dish, many=False)
+
+        return Response(serialized.data, status=status.HTTP_201_CREATED)

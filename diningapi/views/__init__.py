@@ -5,3 +5,5 @@ from .dish import DishView
 from .wishlist import WishlistView
 from .restaurantRating import RestaurantRatingView
 from .restaurantReview import RestaurantReviewView
+from .dishRating import DishRatingView
+from .dishReview import DishReviewView
