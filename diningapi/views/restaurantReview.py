@@ -23,7 +23,7 @@ class RestaurantReviewSerializer(serializers.ModelSerializer):
 
     class Meta:
         model = RestaurantReview
-        fields = ['restaurant', 'review', 'user']
+        fields = ['id', 'restaurant', 'review', 'user']
 
 class RestaurantReviewView(ViewSet):
 
@@ -38,14 +38,32 @@ class RestaurantReviewView(ViewSet):
         serialized = RestaurantReviewSerializer(review, many=False)
 
         return Response(serialized.data, status=status.HTTP_201_CREATED)
-    
+        
+        
     def list(self, request):
-
-        try:
+        # Get dish_id from the query parameters
+        restaurant_id = request.query_params.get('restaurant_id', None)
+        
+        if restaurant_id is not None:
+            reviews = RestaurantReview.objects.filter(restaurant_id=restaurant_id)
+            if reviews.exists():
+                serializer = RestaurantReviewSerializer(reviews, many=True, context={'request': request})
+                return Response(serializer.data, status=status.HTTP_200_OK)
+            else:
+                return Response({"detail": "No review found for this dish."}, status=status.HTTP_404_NOT_FOUND)
+        else:
+            try:
             # Start with all rows
-            reviews = RestaurantReview.objects.all()
+                reviews = RestaurantReview.objects.all()
 
-            serializer = RestaurantReviewSerializer(reviews, many=True)
-            return Response(serializer.data, status=status.HTTP_200_OK)
-        except Exception as ex:
-            return HttpResponseServerError(ex)
+                serializer = RestaurantReviewSerializer(reviews, many=True)
+                return Response(serializer.data, status=status.HTTP_200_OK)
+            except Exception as ex:
+                return HttpResponseServerError(ex)
+            
+    def update(self, request, pk=None):
+        restaurantReview = RestaurantReview.objects.get(pk=pk)
+        restaurantReview.review = request.data["review"]
+        restaurantReview.save()
+
+        return Response({}, status=status.HTTP_204_NO_CONTENT)
